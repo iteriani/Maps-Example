@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <Button
+        android:onClick="onClickMapGoogle"
+        android:text="@string/map_google"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:onClick="onClickMapYandex"
+        android:text="@string/map_yandex"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:onClick="onClickMapAmazon"
+        android:text="@string/map_amazon"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:onClick="onClickMapBing"
+        android:text="@string/map_bing"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:onClick="onClickMapArcGIS"
+        android:text="@string/map_arcgis"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
