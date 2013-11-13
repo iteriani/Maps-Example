@@ -1,6 +1,6 @@
 <h1> F.A.Q. </h1>
 
-<h2> What it this? </h2>
+<h2> What is this? </h2>
 
 In this project i want identify pluses and minuses of most all popular maps SDK.
 
