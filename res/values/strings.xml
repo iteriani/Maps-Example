@@ -3,10 +3,8 @@
 
     <string name="app_name">Maps Example</string>
 
-    <string name="map_google">Google map</string>
-    <string name="map_yandex">Yandex map</string>
-    <string name="map_amazon">Amazon map</string>
-    <string name="map_bing">Bing map</string>
-    <string name="map_arcgis">ArcGIS map</string>
+    <string name="maps_google">Google maps</string>
+    <string name="maps_yandex">Yandex maps</string>
+    <string name="maps_arcgis">ArcGIS maps</string>
 
 </resources>

@@ -34,11 +34,9 @@
 
         </activity>
 
-        <activity android:name=".MapGoogleActivity"/>
-        <activity android:name=".MapYandexActivity"/>
-        <activity android:name=".MapAmazonActivity"/>
-        <activity android:name=".MapBingActivity"/>
-        <activity android:name=".MapArcGISActivity"/>
+        <activity android:name=".MapsGoogleActivity"/>
+        <activity android:name=".MapsYandexActivity"/>
+        <activity android:name=".MapsArcGISActivity"/>
 
     </application>
 

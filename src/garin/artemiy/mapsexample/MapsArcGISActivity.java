@@ -9,7 +9,7 @@ import com.esri.android.map.ags.ArcGISTiledMapServiceLayer;
  * Author: Artemiy Garin
  * Date: 13.11.13
  */
-public class MapArcGISActivity extends Activity {
+public class MapsArcGISActivity extends Activity {
 
     private static final String MAP_URL =
             "http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer";
@@ -18,7 +18,7 @@ public class MapArcGISActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_map_arcgis_layout);
+        setContentView(R.layout.activity_maps_arcgis_layout);
 
         mapView = (MapView) findViewById(R.id.mapView);
         mapView.addLayer(new ArcGISTiledMapServiceLayer(MAP_URL));

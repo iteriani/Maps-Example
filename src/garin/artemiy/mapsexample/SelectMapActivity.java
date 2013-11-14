@@ -14,28 +14,18 @@ public class SelectMapActivity extends Activity {
     }
 
     @SuppressWarnings("unused")
-    public void onClickMapGoogle(View view) {
-        startActivity(new Intent(this, MapGoogleActivity.class));
+    public void onClickMapsGoogle(View view) {
+        startActivity(new Intent(this, MapsGoogleActivity.class));
     }
 
     @SuppressWarnings("unused")
-    public void onClickMapYandex(View view) {
-        startActivity(new Intent(this, MapYandexActivity.class));
+    public void onClickMapsYandex(View view) {
+        startActivity(new Intent(this, MapsYandexActivity.class));
     }
 
     @SuppressWarnings("unused")
-    public void onClickMapAmazon(View view) {
-        startActivity(new Intent(this, MapAmazonActivity.class));
-    }
-
-    @SuppressWarnings("unused")
-    public void onClickMapBing(View view) {
-        startActivity(new Intent(this, MapBingActivity.class));
-    }
-
-    @SuppressWarnings("unused")
-    public void onClickMapArcGIS(View view) {
-        startActivity(new Intent(this, MapArcGISActivity.class));
+    public void onClickMapsArcGIS(View view) {
+        startActivity(new Intent(this, MapsArcGISActivity.class));
     }
 
 }
