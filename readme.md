@@ -4,7 +4,7 @@
 
 In this project i want identify pluses and minuses of most all popular maps SDK.
 
-Full article you may see <a href=http://kvirair.blogspot.ru/2013/11/android-compare-popular-maps-sdk-google.html>here</a>
+Full article you may see <a href=http://kvirair.blogspot.ru/2013/11/android-compare-popular-maps-sdk-google.html>here</a>.
 
 <h2> I make new build, Google map not working, why? </h2>
 
